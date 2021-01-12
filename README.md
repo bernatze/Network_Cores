@@ -1,28 +1,7 @@
 # Network_Cores
 C++ Algorithms for network core extraction/k-core/M-core/GK-core/Weak core and related observables
 
-Author: Bernat Corominas-Murtra (2021)                        
-
-Includes:										 
-
-    Graph connected Component structure		
-    
-    K-core										 
-    
-    Generalized K-core					
-    
-    M-core										 
-    
-    Weak Core									 
-		
-    Core Clusters (MCore of GKcore)				 
-		
-    KCoreness									 
- 		
-    GKCoreeness									 
-		
-    Mcoreness									 
-													 
+Author: Bernat Corominas-Murtra (2021)    
 
 Based on ther following Bibliography
 
@@ -50,4 +29,34 @@ Based on ther following Bibliography
 	B. Corominas-Murtra and S. Thurner
 	Springer Complexity: Interconnected Networks, Chapter 10, (2015)
 	ArXiv preprint: https://arxiv.org/abs/1412.6913
+
+****Contents
+
+Header Cores_subgraph.h includes:										 
+
+    Graph connected Component structure		
+    
+    K-core										 
+    
+    Generalized K-core					
+    
+    M-core										 
+    
+    Weak Core									 
+		
+    Core Clusters (MCore of GKcore)				 
+		
+    KCoreness									 
+ 		
+    GKCoreeness									 
+		
+    Mcoreness									 
+													 
+main.cpp includes an example of computation of the above core subgraph-related observables. Some example networks are provided in order to test the algorithms.
+
+***WARNING 
+
+	    GKCoreeness	may be time expensive in dense and massive graphs with strong hubs								 
+
+
 
