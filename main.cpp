@@ -6,23 +6,19 @@
 //  Copyright © 2021 Bernat. All rights reserved.
 //
 /******************************************************
- **   CORE EXTRACTING Functions                       **
- **   Bernat Corominas-Murtra                         **
- **   Last revision: 16.11.2017                       **
- **   Vienna Complexity Science Hub                     **
- **   Medical University of Vienna                     **
- **   Section for the Science of Complex Systems         **
- **     Includes:                                         **
- **        Graph Component structure                     **
- **        K-core                                         **
- **        Generalized K-core                             **
- **        M-core                                         **
- **        Weak Core                                     **
- **        Core Clusters (MCore of GKcore)                 **
- **        KCoreness                                     **
- **        GKCoreeness                                     **
- **        Mcoreness                                     **
- **                                                     **
+ **   CORE EXTRACTING Functions                      **
+ **   Bernat Corominas-Murtra                        **
+ **     Includes:                                    **
+ **        Graph Component structure                 **
+ **        K-core                                    **
+ **        Generalized K-core                        **
+ **        M-core                                    **
+ **        Weak Core                                 **
+ **        Core Clusters (MCore of GKcore)           **
+ **        KCoreness                                 **
+ **        GKCoreeness                               **
+ **        Mcoreness                                 **
+ **                                                  **
  ******************************************************/
 
 /******************************************************
