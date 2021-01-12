@@ -89,7 +89,7 @@ int main (int argc, char * const argv[]) {
     
     
     //Input file names
-    ifstream InputNet("Net_Example_1.txt");//Put the name of the input file here
+    ifstream InputNet("Net_Example_3.txt");//Put the name of the input file here
     
     //Output file names
     //Output subgraphs: List of pairs of nodes
