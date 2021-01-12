@@ -89,7 +89,7 @@ int main (int argc, char * const argv[]) {
     
     
     //Input file names
-    ifstream InputNet("ER_G_U_2.txt");//Put the name of the input file here
+    ifstream InputNet("Net_Example_1.txt");//Put the name of the input file here
     
     //Output file names
     //Output subgraphs: List of pairs of nodes
@@ -126,7 +126,7 @@ int main (int argc, char * const argv[]) {
     cout<<"Kcoreness..."<<endl;
     Core.KCoreness(g, KCore_seq);
     cout<<"GKcoreness..."<<endl;
-    Core.GKCoreness(g,GKCore_seq);
+    Core.GKCoreness(g,GKCore_seq);// Caution: time expensive for massive graphs
     cout<<"Mcoreness..."<<endl;
     Core.MCoreness(g,MCore_seq);
     
