@@ -3,7 +3,7 @@ C++ Algorithms for network core extraction/k-core/M-core/GK-core/Weak core and r
 
 Author: Bernat Corominas-Murtra (2021)    
 
-Based on ther following Bibliography
+Based on the following Bibliography
 
 *K-core:
 
